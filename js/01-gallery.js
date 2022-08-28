@@ -11,7 +11,7 @@ const cardMarkup = galleryItems.reduce((acc, item) => {
 
   return (
     acc +
-    `  <a class="gallery__link" href="image.jpg">
+    `  <a class="gallery__link" href="large-image.jpg">
     <img
       class="gallery__image"
       src="${preview}"
@@ -51,5 +51,4 @@ function onModalOpen(event) {
       window.removeEventListener('keydown', onEscape);
     }
   }
-}
-console.log(galleryItems);
+};
